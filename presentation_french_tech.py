@@ -120,7 +120,7 @@ if page == pages[0] :
     st.markdown("""<style>h1 {color: #4629dd;  font-size: 70px;/* Changez la couleur du titre h1 ici */} h2 {color: #440154ff;    font-size: 50px /* Changez la couleur du titre h2 ici */} h3{color: #27dce0; font-size: 30px; /* Changez la couleur du titre h3 ici */}</style>""",unsafe_allow_html=True)
     st.markdown("""<style>body {background-color: #f4f4f4;</style>""",unsafe_allow_html=True)
 
-    st.write("Ce projet explore les inégalités salariales en France en s'appuyant sur les précieuses données de l'Insee, pour révéler les facteurs clés qui influencent les écarts de revenus. L'objectif est de dresser un portrait détaillé et de juger si ces données permettent une interprétation claire des mécanismes derrière ces inégalités.")
+    st.write("Ce projet explore les inégalités salariales en France en s'appuyant sur les données de l'Insee, pour révéler les facteurs clés qui influencent les écarts de revenus. L'objectif est de dresser un portrait détaillé et de juger si ces données permettent une interprétation claire des mécanismes derrière ces inégalités. \nRendez-vous dans l'onglet Prédiction pour une démonstration de notre modèle de prédiction du salaire.")
 
 
 
