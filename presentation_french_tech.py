@@ -510,7 +510,7 @@ if page == pages[4] :
     st.subheader("Prédiction avec LinearRegression - Modèle limité aux 5 features principales")
 
     st.markdown(f"<p style='font-size:24px; font-weight:bold;'> Attribuez des valeurs à un espace géographique donné</p>", unsafe_allow_html=True)
-    st.markdown(f"<p style='font-size:14px; color:grey; font-style:italic;'>Attention : pour éviter les prédictions aberrantes, veillez à entrer des valeurs cohérentes (ordres de grandeur respectés, proportions réalistes du nombre d'entreprises par rapport à la population, etc.)</p>", unsafe_allow_html=True)           
+    st.markdown(f"<p style='font-size:14px; color:grey; font-style:italic;'>Attention : pour éviter les prédictions aberrantes, veillez à entrer des valeurs cohérentes en alignant les curseurs des 5 variables</p>", unsafe_allow_html=True)           
 
 
 
