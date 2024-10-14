@@ -12,6 +12,7 @@ from scipy.stats import normaltest
 from scipy.stats import norm
 import pickle
 import matplotlib.pyplot as plt
+import streamlit.components.v1 as components
 
 # Définir les métadonnées de la page
 st.set_page_config(
@@ -19,6 +20,14 @@ st.set_page_config(
     page_icon="📊",  # Icône de la page
     layout="wide"  # Optionnel : défini la mise en page de l'application
 )
+
+# Injecter des balises HTML
+og_title = """
+<meta property="og:title" content="Analyse des Salaires en France - Application Streamlit">
+"""
+
+# Injecter ces balises dans la page avec Streamlit
+components.html(og_title, height=0)
 
 #Nouveaux DATAFRAMES
 #GEO
