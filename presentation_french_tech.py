@@ -13,6 +13,13 @@ from scipy.stats import norm
 import pickle
 import matplotlib.pyplot as plt
 
+# Définir les métadonnées de la page
+st.set_page_config(
+    page_title="Analyse comparative des données salariales en France",  # Le titre qui apparaîtra dans l'aperçu
+    page_icon="📊",  # Icône de la page
+    layout="wide"  # Optionnel : défini la mise en page de l'application
+)
+
 #Nouveaux DATAFRAMES
 #GEO
 geo_prem=pd.read_csv('geo1.csv')
